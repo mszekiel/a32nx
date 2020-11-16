@@ -26,17 +26,19 @@ module.exports = fs.readdirSync(`${__dirname}/src`, { withFileTypes: true })
             plugins: [
                 babel({
                     presets: [
+                        '@babel/preset-typescript',
                         ['@babel/preset-react', {
                             runtime: 'automatic',
                         }],
                     ],
                     babelHelpers: 'bundled',
                     exclude: /node_modules/,
+                    extensions: ['.js', '.jsx', '.ts', '.tsx'],
                 }),
                 replace({
                     'process.env.NODE_ENV': '"production"',
                 }),
-                nodeResolve(),
+                nodeResolve({ extensions: ['.js', '.jsx', '.ts', '.tsx'] }),
                 commonjs({
                     include: /node_modules/,
                 }),
