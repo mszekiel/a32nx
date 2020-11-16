@@ -1,0 +1,16 @@
+.mcdu-field-description {
+  display: flex;
+  padding: 0 45px;
+  height: 4.2vw;
+  font-size: 4.2vw;
+  letter-spacing: 0.8vw;
+}
+
+.mcdu-field-description-right {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0 45px;
+  height: 4.2vw;
+  font-size: 4.2vw;
+  letter-spacing: 0.8vw;
+}

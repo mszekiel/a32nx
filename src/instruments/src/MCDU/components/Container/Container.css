@@ -1,0 +1,20 @@
+@import url("/CSS/A32NX_Display_Common.css");
+
+* {
+  font-family: "ECAMFontRegular";
+}
+
+.mcdu-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 5.8vw;
+  color: var(--displayWhite);
+  padding: 50px 50px 40px;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(13, 20, 35, 1) 0%,
+    rgb(13, 20, 35) 100%
+  );
+}

@@ -1,0 +1,29 @@
+@import url("/CSS/A32NX_Display_Common.css");
+
+.mcdu-field-label {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-bottom: 32px;
+}
+
+.mcdu-field-label-description {
+  display: flex;
+  padding: 0 45px;
+  height: 4.2vw;
+  font-size: 4.2vw;
+  letter-spacing: 1.1vw;
+}
+
+.mcdu-field-label:last-of-type:not(:first-of-type)
+  .mcdu-field-label-description {
+  flex-direction: row-reverse;
+}
+
+.mcdu-field-label-content {
+  display: flex;
+}
+
+.mcdu-field-label:last-of-type:not(:first-of-type) .mcdu-field-label-content {
+  flex-direction: row-reverse;
+}

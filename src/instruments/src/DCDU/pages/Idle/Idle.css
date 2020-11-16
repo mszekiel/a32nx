@@ -1,0 +1,9 @@
+@import url("/CSS/A32NX_Display_Common.css");
+
+.dcdu-idle {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  color: var(--displayWhite);
+}

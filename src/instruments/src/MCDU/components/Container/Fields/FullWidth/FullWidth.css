@@ -1,0 +1,23 @@
+@import url("/CSS/A32NX_Display_Common.css");
+
+.mcdu-field-fullWidth {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-bottom: 32px;
+}
+
+.mcdu-field-fullWidth-description {
+  display: flex;
+  padding: 0 45px;
+  word-wrap: nowrap;
+  height: 4.2vw;
+  font-size: 4.2vw;
+  letter-spacing: 1.1vw;
+  word-spacing: 1vw;
+}
+
+.mcdu-field-fullWidth-content {
+  display: flex;
+  justify-content: space-between;
+}

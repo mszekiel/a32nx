@@ -1,0 +1,35 @@
+@import url("/CSS/A32NX_Display_Common.css");
+
+.mcdu-field-selectable {
+  display: flex;
+  padding: 0 0 0 45px;
+}
+
+.mcdu-field-selectable-right {
+  display: flex;
+  padding: 0 25px 0 0;
+}
+
+.mcdu-field-selectable-arrow {
+  position: absolute;
+  left: 40px;
+}
+
+.mcdu-field-selectable-arrow-right {
+  position: absolute;
+  right: 40px;
+}
+
+.mcdu-field-selectable-small {
+  font-size: 4.2vw;
+  line-height: 5.8vw;
+}
+
+.mcdu-field-selectable-small-right {
+  font-size: 4.2vw;
+  line-height: 5.8vw;
+}
+
+.mcdu-field-selectable-small .mcdu-field-selectable-arrow {
+  left: 50px;
+}
